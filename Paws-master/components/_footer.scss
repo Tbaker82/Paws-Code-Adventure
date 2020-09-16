@@ -1,0 +1,45 @@
+footer {
+	padding: 50px 0 50px 0;
+	form {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		z-index: 1;
+		width: 60%;
+		margin: 0 auto;
+		input {
+			height: 35px;
+			margin-bottom: 20px;
+		}
+		.cat2 {
+			width: 100px;
+			position: absolute;
+			z-index: 99;
+			top: 240px;
+			right: -65px;
+		}
+		.cat1 {
+			width: 100px;
+			position: absolute;
+			z-index: 0;
+			bottom: 275px;
+			left: -55px;
+		}
+		textarea {
+			height: 150px;
+			&::placeholder {
+				padding-top: 10px;
+			}
+		}
+		input,
+		textarea {
+			border-radius: $br;
+			box-shadow: 1px 5px 5px grey;
+			border: none;
+			 &::placeholder {
+			 	text-align: left;
+			 	padding-left: 10px;
+			 }
+		}
+	}
+}

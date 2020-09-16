@@ -1,0 +1,72 @@
+html {
+	background: lightgrey;
+}
+main {
+	width: 100%;
+	section {
+		padding: 20px 0 20px 0;
+		border-bottom: 2px solid $colortext;
+	}
+	p {
+		width: 85%;
+		margin: 0 auto;
+	}
+	.adopt{
+		img {
+			width: 100px;
+			height: 100px;
+		}
+	}
+	.adopt-p {
+		padding-top: 10px;
+	}
+	.mapborder {
+		border: 10px solid $colorprimary;
+		border-bottom: 5px solid $colorprimary;
+		width: 95%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.locationborder {
+		background: white;
+		border: 10px solid $colorprimary;
+		border-top: 5px solid $colorprimary;
+		width: 95%;
+		margin: 0 auto;
+		padding: 15px 0;
+	}
+	.locationlogo {
+		display: flex;
+	}
+		img {
+			margin: 0 10px 15px auto;
+		}
+		h2 {
+			margin: 0 auto 15px 10px;
+			padding-top: 10px;
+		}
+	.locationmarker {
+		display: flex;
+		flex-direction: column;
+		img {
+			width: 25px;
+			height: 30px;
+			margin: 0 0 10px 25px;
+		}	
+	}	
+	.locationinput {
+		width: 90%;
+		height: 40px;
+		background-color: white;
+		background-image: url(assets/icons/locationmarker.png);
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 15px 20px;
+		background-origin: content-box;
+		border: 1px solid $colorprimary;
+		border-radius: $br;
+		margin: 15px auto 15px auto;
+		text-align: left;
+		padding: 0 10px 0 10px;
+	}
+}

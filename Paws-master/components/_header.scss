@@ -1,0 +1,32 @@
+// Header Styles
+
+header {
+	border-bottom: solid 2px $colortext;
+	padding-bottom: 15px;
+	img {
+		height: 50px;
+		width: 50px;
+		padding-right: 15px;
+		margin: 15px 0 0 auto;
+	}
+	div {
+		display: flex;
+	}
+	h1 {
+		margin: 25px auto 0 0;
+	}
+	li {
+		height: 30px;
+		width: 80%;
+		background: $colorprimary;
+		list-style: none;
+		border-radius: $br;
+		margin: 0 auto 10px auto;
+		padding-top: 7.5px;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+	}
+}
+

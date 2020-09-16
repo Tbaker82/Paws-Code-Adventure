@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.25em;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+h1,
+h2 ,
+a {
+	font-family: 'Grandstander', cursive;
+}
+
+p,
+::placeholder {
+	font-family: 'Indie Flower', cursive;
+}
+
+h1,
+h2,
+a,
+p, {
+	color: $colortext;
+}
